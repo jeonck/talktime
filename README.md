@@ -4,7 +4,7 @@
 이디엄 · 어휘 · 교정 문장 · 퀴즈 · 미니 일기로 구성된 영문 학습 포스트를 자동
 게시하는 사이트.
 
-사이트: https://jeonck.github.io/talktime/
+사이트: https://talktime.metacog.co.kr/ (커스텀 도메인, `jeonck.github.io/talktime`에서 리다이렉트)
 
 ## 어떻게 동작하나
 
@@ -80,11 +80,12 @@ gh secret set CLAUDE_CODE_OAUTH_TOKEN --repo jeonck/talktime
 | `.github/workflows/daily.yml` | push 후킹 + 매일 07:00 KST 생성/배포 워크플로 |
 | `themes/PaperMod` | Hugo 테마 (git submodule) |
 | `assets/css/extended/cards.css` | 카드 그리드 레이아웃 + PaperMod 여백 버그 수정 |
+| `static/CNAME` | 커스텀 도메인 (talktime.metacog.co.kr) |
 
 ## 로컬에서 테스트
 
 ```bash
-hugo server -D                           # http://localhost:1313/talktime/
+hugo server -D                           # http://localhost:1313/
 python3 pipeline/generate.py --dry-run   # 파일 생성 없이 결과만 확인
 ```
 

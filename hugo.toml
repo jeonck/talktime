@@ -1,4 +1,4 @@
-baseURL = 'https://jeonck.github.io/talktime/'
+baseURL = 'https://talktime.metacog.co.kr/'
 locale = 'en-us'
 title = 'TalkTime English Notes'
 theme = 'PaperMod'
