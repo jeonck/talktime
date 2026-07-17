@@ -13,6 +13,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     align-items: start;
+    /* .main의 min-height(100vh - header - footer) 남는 공간이 행에 분배되어
+       인트로/카드 사이가 벌어지는 것 방지 — 행을 위쪽에 밀착 */
+    align-content: start;
     gap: 1.5rem;
   }
 
