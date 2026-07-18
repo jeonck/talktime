@@ -2,7 +2,7 @@ name: TalkTime Daily
 
 on:
   schedule:
-    - cron: "0 22 * * *" # UTC 22:00 = KST 07:00 (예: UTC 22:00 = KST 07:00)
+    - cron: "35 22 * * *" # UTC 22:35 = KST 07:35 (다른 프로젝트와 겹침 방지로 분산)
   workflow_dispatch:
   push: # input/ 저장(커밋) 시 즉시 생성+배포(후킹), 사이트 파일 변경 시 배포
     branches: [main]
