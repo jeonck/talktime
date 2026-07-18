@@ -1,137 +1,144 @@
 ---
 title: "2026-07-18 Nostalgia: Smells, Cars, and Places from the Past"
-date: 2026-07-18T09:02:58.252019+09:00
-tags: ["nostalgia", "conversation-practice", "smells-and-memories"]
+date: 2026-07-18T09:28:48.350349+09:00
+tags: ["nostalgia", "sensory-memory", "everyday-life"]
 ---
 ## Session Overview
 
-The group opened by sharing recent activities — job applications, university research, family travel, and a welding project — before shifting to the session's main topic of nostalgia. Participants explored how specific smells (banana candy, fermented soybeans, fish by a canal) can instantly transport a person back to childhood, and they shared nostalgic objects such as vintage cars, old hard candy, and classroom computers. The session ended with stories about revisiting beloved places only to find them changed by time, growth, or neglect.
+Participants shared weekly updates — from job searching and dementia research to a trip to San Diego and welding a backyard grill — before diving into the session's main theme of nostalgia. Guided by the idiom of the week ('cup of tea'), the group explored how smells, fermented foods, childhood sweets, and old cars can trigger vivid memories of the past. They also compared notes on revisiting once-beloved places like Guam, San Diego, and Austin, and discovering how much those places had changed.
 
 ## 💬 Idioms
 
-### “not my cup of tea”
+### “cup of tea”
 
-something that is not to your personal taste or liking
+something that suits your personal taste or preference; most often used in the negative ('not my cup of tea') to say something isn't for you
 
-- *I tried that new sci-fi thriller, but honestly, it's just not my cup of tea.*
-- *Thanks for the invite, but crowded outdoor festivals are not my cup of tea — I prefer quiet evenings at home.*
+- *I tried the new thriller series everyone was talking about, but slow-burn mysteries just aren't my cup of tea.*
+- *Thanks for the invitation — outdoor yoga in the park is really my cup of tea.*
 
 ### “time warp”
 
-a disorienting experience of feeling suddenly transported back to a moment in the past
+a sudden feeling of being transported back to another moment in time, usually triggered by a smell, sound, or familiar place
 
-- *Walking into my old elementary school was a total time warp — nothing had changed in twenty years.*
-- *The smell of that old cologne sent me into a time warp; I was instantly back in high school.*
-
-### “born and raised”
-
-to have been born and spent one's entire childhood growing up in a particular place
-
-- *I'm born and raised in Austin, so I remember when the city was much smaller and quieter.*
-- *She's born and raised in Seoul, so she knows every neighborhood like the back of her hand.*
+- *One whiff of that old woodsmoke put me in a complete time warp — I was back at my grandfather's cabin.*
+- *Walking into the abandoned school felt like a time warp; nothing had changed since the 1980s.*
 
 ### “spark nostalgia”
 
-to trigger a sudden warm, longing feeling for the past
+to trigger a bittersweet longing for the past, usually through a sensory experience like a smell, taste, or image
 
-- *The smell of banana candy can spark nostalgia for childhood trips to my grandmother's corner store.*
-- *Old holiday movies always spark nostalgia in me for simpler family times.*
+- *A single photo from that summer trip sparked nostalgia in everyone at the table.*
+- *Old commercials have a way of sparking nostalgia even for people who weren't alive when they aired.*
+
+### “come up with”
+
+to think of or produce an idea, plan, or solution
+
+- *She came up with a clever way to fix the broken fence using spare wood from the garage.*
+- *I couldn't come up with any good ideas until I went for a long walk.*
 
 ## 📚 Vocabulary to Remember
 
-- **nostalgia** — a bittersweet longing for the past, often triggered by a sight, smell, or sound
-  - *The smell of doenjang jjigae fills her with nostalgia for her mother's kitchen.*
-- **bittersweet** — producing both happiness and sadness at the same time
-  - *Leaving her hometown after college was a bittersweet moment — exciting, but also deeply sad.*
-- **fermented** — preserved or transformed through the action of bacteria or yeast, often producing a sour or strong flavor
-  - *Kimchi and miso are both made from fermented vegetables or soybeans.*
-- **deteriorated** — became worse in quality or condition over a period of time
-  - *The old iron grill in the backyard had deteriorated so much it needed to be completely rebuilt.*
-- **replicate** — to make an exact copy of something; to reproduce
-  - *He planted a pecan tree in his yard to replicate the peaceful backyard he loved as a child.*
-- **rebellious** — resisting rules, authority, or accepted norms, often associated with teenage years
-  - *Her mother remembered her as rebellious, but she thought of herself as simply independent.*
-- **welding** — the skill of joining metal parts together using intense heat
-  - *He borrowed a welding machine from a neighbor to repair the iron grill in his backyard.*
+- **nostalgia** — a bittersweet emotional longing for happy times or places from the past
+  - *The smell of my old school hallway filled me with nostalgia for my teenage years.*
+- **bittersweet** — a feeling that is both happy and sad at the same time
+  - *Saying goodbye to her childhood home was a bittersweet moment — sad to leave, but exciting to move forward.*
+- **fermented** — preserved or chemically transformed over time by bacteria or yeast, often producing a strong smell and deep flavor
+  - *Miso soup is made from fermented soybean paste, which gives it a rich, savory taste.*
+- **deteriorated** — became worse in quality, condition, or appearance over time
+  - *The old boardwalk had deteriorated so much over the years that the city finally replaced it.*
+- **replicate** — to copy or reproduce something as closely as possible
+  - *He spent years trying to replicate his grandmother's hot sauce recipe.*
+- **rebellious** — resisting authority, rules, or expected behavior, especially as a teenager
+  - *Her rebellious phase lasted only a year before she settled down and focused on her studies.*
+- **amenities** — facilities or features that provide comfort and convenience in a place
+  - *The resort had great amenities — a rooftop pool, a spa, and free shuttle service.*
+- **pick up** — to gradually learn or acquire a skill, habit, or language, often without formal instruction
+  - *He picked up basic Japanese just by watching films with subtitles.*
 
 ## 🔧 Say It Better
 
-1. ❌ *I applied the job in the site with the workforce solution people*
-   ✅ **I applied for a job on the website through a workforce solutions company.**
-   💡 Use 'apply for' (not 'apply the job') and 'on the website' (not 'in the site')
-2. ❌ *I participate the IT meter*
-   ✅ **I participated in the IT meetup.**
-   💡 'Participate' always requires 'in'; 'meetup' is the natural word for an informal group gathering
-3. ❌ *Every moment, you can arise your idea, uh, over 10,000*
-   ✅ **At any moment, you can come up with more than 10,000 ideas.**
-   💡 'Arise' is intransitive (ideas arise on their own); to generate ideas, use 'come up with'
-4. ❌ *I don't need to work for time in the summer*
-   ✅ **I don't need to work full time in the summer.**
-   💡 The fixed phrase is 'full time'; 'for time' is not standard English
-5. ❌ *I borrow a wealthy machine*
-   ✅ **I borrowed a welding machine.**
-   💡 Past action needs past tense 'borrowed'; 'wealthy' was a speech-to-text error for 'welding'
-6. ❌ *The smell of the water, the smell of the fish… Remember me a very great time*
-   ✅ **The smell of the water and the fish reminds me of a wonderful time.**
-   💡 Use 'reminds me of' — 'remember' cannot take a person as its object in this structure
-7. ❌ *Let me the opportunity to develop my hobby*
+1. ❌ *I applied the job in the site with the workforce solution people.*
+   ✅ **I applied for the job on the site through the workforce solutions agency.**
+   💡 Use 'apply for a job' (not 'apply the job') and 'on the website/site' (not 'in the site').
+2. ❌ *I participate the IT meter.*
+   ✅ **I attended the IT meetup.**
+   💡 'Participate' requires 'in': 'I participated in the meetup'; 'meetup' (an informal gathering) is the intended word, not 'meter'.
+3. ❌ *You can arise your idea over 10,000 in every moment.*
+   ✅ **You can come up with more than 10,000 ideas at any moment.**
+   💡 'Arise' is intransitive — ideas arise on their own; use 'come up with' when you actively generate ideas.
+4. ❌ *I started a new skill in my life.*
+   ✅ **I picked up a new skill.**
+   💡 We 'pick up', 'learn', or 'develop' a skill — not 'start' one.
+5. ❌ *I borrow a wealthy machine and restored my grill.*
+   ✅ **I borrowed a welding machine and restored my grill.**
+   💡 Past tense 'borrowed'; the machine is a 'welding machine' — 'wealthy' was a transcription mishearing.
+6. ❌ *The smell of the water, the smell of the fish... remember me a very great time.*
+   ✅ **The smell of the water and the fish reminded me of a wonderful time.**
+   💡 The correct pattern is 'remind someone of something' — 'remember' cannot be used this way in English.
+7. ❌ *We are not agree in how we can enjoy our lives.*
+   ✅ **We don't agree on how we should enjoy our lives.**
+   💡 'Agree' is a verb, not an adjective; say 'I don't agree' or 'we disagree on something'.
+8. ❌ *Besides the cultural chalk, it was hard for me.*
+   ✅ **Besides the culture shock, it was hard for me.**
+   💡 'Culture shock' is a fixed phrase describing the disorientation of adapting to a completely new culture.
+9. ❌ *Let me the opportunity to develop my hobby.*
    ✅ **It gave me the opportunity to develop my hobby.**
-   💡 A subject and the verb 'gave' are needed; 'let me the opportunity' is grammatically incomplete
-8. ❌ *Inconsciously, I think I try to replicate that backyard*
-   ✅ **Unconsciously, I think I tried to replicate that backyard.**
-   💡 'Unconsciously' (not 'inconsciously'); use past tense 'tried' for a completed past action
-9. ❌ *We are not agree in how we can enjoy our lives*
-   ✅ **We don't agree on how we enjoy our lives.**
-   💡 'Agree' is a verb, so use 'don't agree' (not 'are not agree'); the correct preposition is 'on', not 'in'
-10. ❌ *I have a bank problem. I am fighting, uh, some issues.*
-   ✅ **I have a back problem. I've been dealing with some health issues.**
-   💡 'Back' (spine) was transcribed as 'bank'; 'dealing with' is more natural than 'fighting' for ongoing health challenges
+   💡 The sentence needs a subject ('It') and the verb 'give': 'It gave me the opportunity to…'
+10. ❌ *We go to eat outside and we go to the swimming pool.*
+   ✅ **We went out to eat and we went to the swimming pool.**
+   💡 Use past tense 'went' for past events; 'go out to eat' is more natural than 'go to eat outside'.
 
 ## ✅ Check Yourself
 
-**Q1.** Walking into her childhood bedroom after fifteen years felt like a ____; the old posters were still on the wall exactly where she had left them.
+**Q1.** Live jazz music is really my ____; I try to catch a concert at least once a month.
 
+- cup of tea
 - time warp
 - nostalgia
+
+<details><summary>Show answer</summary><p><strong>cup of tea</strong> — 'Cup of tea' means something that suits your personal taste; 'time warp' and 'nostalgia' relate to memories, not preferences.</p></details>
+
+**Q2.** One whiff of my dad's old aftershave sent me into a complete ____.
+
+- time warp
 - bittersweet
-
-<details><summary>Show answer</summary><p><strong>time warp</strong> — 'Time warp' captures the disorienting sense of being transported to the past; 'nostalgia' is a feeling (noun), and 'bittersweet' is an adjective that needs a noun to modify.</p></details>
-
-**Q2.** I appreciate the invitation, but hiking in the rain is just ____ — I would much rather stay home with a good book.
-
-- not my cup of tea
-- born and raised
-- spark nostalgia
-
-<details><summary>Show answer</summary><p><strong>not my cup of tea</strong> — 'Not my cup of tea' expresses that something doesn't suit your personal taste; the other options don't convey personal preference.</p></details>
-
-**Q3.** Every time she enters that old bakery, the smell of warm bread can ____ for the college years she spent in that neighborhood.
-
-- spark nostalgia
 - fermented
-- welding
 
-<details><summary>Show answer</summary><p><strong>spark nostalgia</strong> — 'Spark nostalgia' means to trigger a longing feeling for the past; 'fermented' is a food adjective and 'welding' is a metalworking skill — neither fits an emotional context.</p></details>
+<details><summary>Show answer</summary><p><strong>time warp</strong> — 'Time warp' fits naturally after 'into a complete' and means being suddenly transported back in time; the others don't complete the phrase.</p></details>
 
-**Q4.** After years of neglect, the iron fence had ____ so badly that the entire section needed to be replaced.
+**Q3.** Watching her daughter leave for university, she felt ____ — proud and excited, but quietly heartbroken.
+
+- bittersweet
+- rebellious
+- deteriorated
+
+<details><summary>Show answer</summary><p><strong>bittersweet</strong> — 'Bittersweet' describes mixed feelings of happiness and sadness; the others don't describe emotional states in this context.</p></details>
+
+**Q4.** The old wooden dock had ____ so badly over the winter that the park had to close it.
 
 - deteriorated
-- rebellious
-- bittersweet
-
-<details><summary>Show answer</summary><p><strong>deteriorated</strong> — 'Deteriorated' means became worse in quality or condition over time; 'rebellious' describes behavior and 'bittersweet' describes mixed emotion — neither describes physical decay.</p></details>
-
-**Q5.** She was ____ in this neighborhood, so it was painful to watch it change beyond recognition.
-
-- born and raised
-- nostalgia
 - replicated
+- fermented
 
-<details><summary>Show answer</summary><p><strong>born and raised</strong> — 'Born and raised' means to have grown up entirely in one place; 'nostalgia' is a feeling (noun), and 'replicated' means copied — neither expresses deep local roots.</p></details>
+<details><summary>Show answer</summary><p><strong>deteriorated</strong> — 'Deteriorated' means became worse in condition over time; 'replicated' means copied and 'fermented' applies to food, not structures.</p></details>
+
+**Q5.** The architect wanted to ____ the ornate stone carvings from the historic building in the new wing.
+
+- replicate
+- spark nostalgia
+- pick up
+
+<details><summary>Show answer</summary><p><strong>replicate</strong> — 'Replicate' means to copy or reproduce as closely as possible; 'spark nostalgia' means to trigger memories, and 'pick up' means to acquire a skill.</p></details>
+
+**Q6.** After just one year in Seoul, she had ____ enough Korean to order food and ask for directions.
+
+- picked up
+- come up with
+- fermented
+
+<details><summary>Show answer</summary><p><strong>picked up</strong> — 'Pick up' means to gradually acquire a language or skill; 'come up with' means to invent an idea, and 'fermented' describes a food process.</p></details>
 
 ## ✍️ Mini Diary
 
-> The scent of my grandmother's fermented soybean soup always sparks nostalgia for the long winter afternoons I spent at her house as a child.
-> Looking at old photographs from my trip to Paris gave me a complete time warp — for a moment I could almost hear the subway doors closing behind me.
-> I'm born and raised in this city, but so much has changed that I sometimes feel like a stranger walking through it.
-> My colleague invited me to a salsa dancing class after work, but honestly, that kind of dancing is just not my cup of tea.
+> Today I found an old banana-flavored candy at the back of a kitchen drawer, and the smell sent me into a complete **time warp** — I was suddenly standing in my grandmother's little corner store again, waiting for her to hand me a sweet. It was a **bittersweet** moment, the kind that makes you smile and miss someone at the same time. I sat down and let the feeling linger, the way a good memory deserves. Later, I went through some old photos of the neighborhood where I grew up, and each one seemed to **spark nostalgia** all over again. By the end of the evening, I decided I want to **pick up** the habit of writing small memories down before they fade.

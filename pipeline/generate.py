@@ -99,13 +99,17 @@ this format, no other text:
      "answer": "studied word/idiom B",
      "explanation": "one short line on why it fits the blank and the others don't"}}
  ],
- "diary": ["short first-person diary sentence using one of the idioms above",
-           "another diary sentence using a different idiom"],
+ "diary": "one short first-person diary entry (4-6 sentences) told as a single connected story",
  "tags": ["kebab-case-tag", "max 3"]}}
 
 Requirements: 2-4 idioms (each with exactly 2 examples), 4-8 vocabulary items,
-5-10 corrections drawn from what learners actually said, 3-5 diary sentences
-(each using a different idiom from the idioms list).
+5-10 corrections drawn from what learners actually said.
+Diary rules: the diary is ONE coherent entry about ONE small everyday event
+(e.g. walking past an old neighborhood, a dinner invitation) — not a list of
+disconnected sentences. Tell it as a natural mini-story with a beginning and
+end, weaving in 2-4 of the studied idioms/vocabulary only where they genuinely
+fit; wrap each studied expression in **double asterisks** so it stands out.
+Never force in more expressions at the cost of natural flow.
 Quiz rules (4-6 questions): every question is FILL-IN-THE-BLANK — a natural
 sentence with "____" marking the blank. Every option (3-4 per question) MUST be
 taken verbatim from this lesson's "idioms" or "vocabulary" entries — never invent
@@ -123,7 +127,7 @@ QUOTE_NOTE = (
     " Actually, there is no class transcript today. Instead, build a mini lesson"
     " anchored on this classic English idiom: treat it as the first item in \"idioms\","
     " add 1-2 related expressions, use typical mistakes intermediate ESL learners make"
-    " with it for \"corrections\", and base the quiz and diary sentences on it."
+    " with it for \"corrections\", and base the quiz and the diary entry on it."
 )
 
 # 포스트 본문 섹션 제목
@@ -219,9 +223,13 @@ def parse_result(text: str) -> dict | None:
     required = ("title", "summary")
     if not all(isinstance(data.get(k), str) and data.get(k) for k in required):
         return None
-    for key in ("idioms", "vocabulary", "corrections", "quiz", "diary"):
+    for key in ("idioms", "vocabulary", "corrections", "quiz"):
         value = data.get(key) or []
         data[key] = value if isinstance(value, list) else []
+    diary = data.get("diary") or ""
+    if isinstance(diary, list):  # 모델이 옛 형식(문장 목록)으로 답한 경우 이어붙임
+        diary = " ".join(str(d).strip() for d in diary)
+    data["diary"] = str(diary).strip()
     if not data["idioms"]:
         return None
     tags = data.get("tags") or []
@@ -367,9 +375,8 @@ def write_post(sentence: str, result: dict, date: datetime, source: str | None =
         sections.append("\n".join(lines))
 
     if result["diary"]:
-        lines = [f"## {HEADING_DIARY}\n"]
-        lines.append("\n".join(f"> {d}" for d in result["diary"]) + "\n")
-        sections.append("\n".join(lines))
+        entry = result["diary"].replace("\n", "\n> ")
+        sections.append(f"## {HEADING_DIARY}\n\n> {entry}\n")
 
     post = f"""---
 title: {yaml_quote(f"{date.date().isoformat()} {result['title']}")}
