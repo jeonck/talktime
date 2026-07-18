@@ -94,18 +94,27 @@ this format, no other text:
      "note": "one short line on why / the key pattern"}}
  ],
  "quiz": [
-   {{"question": "multiple-choice question testing an idiom, word, or correction above",
-     "options": ["A) ...", "B) ...", "C) ..."],
-     "answer": "A) ...",
-     "explanation": "one short line explaining the answer"}}
+   {{"question": "natural sentence containing ____ (a blank) where one studied word or idiom fits",
+     "options": ["studied word/idiom A", "studied word/idiom B", "studied word/idiom C"],
+     "answer": "studied word/idiom B",
+     "explanation": "one short line on why it fits the blank and the others don't"}}
  ],
  "diary": ["short first-person diary sentence using one of the idioms above",
            "another diary sentence using a different idiom"],
  "tags": ["kebab-case-tag", "max 3"]}}
 
 Requirements: 2-4 idioms (each with exactly 2 examples), 4-8 vocabulary items,
-5-10 corrections drawn from what learners actually said, 4-6 quiz questions,
-3-5 diary sentences (each using a different idiom from the idioms list).
+5-10 corrections drawn from what learners actually said, 3-5 diary sentences
+(each using a different idiom from the idioms list).
+Quiz rules (4-6 questions): every question is FILL-IN-THE-BLANK — a natural
+sentence with "____" marking the blank. Every option (3-4 per question) MUST be
+taken verbatim from this lesson's "idioms" or "vocabulary" entries — never invent
+outside words, so all distractors are plausible items the learner just studied.
+Exactly one option fits the blank; the sentence must be fully grammatical when
+the correct option is inserted (adjust the option's form — tense, plural,
+agreement — inside the option text if needed). The same option set should not
+repeat across questions. Do not copy an example sentence from the
+idioms/vocabulary sections as a quiz sentence — write a fresh sentence.
 
 Transcript:
 {sentence}"""
