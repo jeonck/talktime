@@ -378,6 +378,15 @@ tags: [{tags_str}]
     return path
 
 
+def clear_input() -> None:
+    """게시가 끝난 뒤 input/script.md 코드블록을 비운다 (안내 주석은 유지)."""
+    text = SENTENCE_FILE.read_text(encoding="utf-8")
+    cleared = re.sub(r"```[a-zA-Z]*\n.*?```", "```\n```", text, count=1, flags=re.DOTALL)
+    if cleared != text:
+        SENTENCE_FILE.write_text(cleared, encoding="utf-8")
+        log("input/script.md 코드블록을 비웠습니다 (게시 완료)")
+
+
 def load_state() -> dict:
     if STATE_FILE.exists():
         try:
@@ -476,6 +485,10 @@ def main() -> int:
     if new_count:
         state["processed"] = processed
         STATE_FILE.write_text(json.dumps(state, indent=1, sort_keys=True), encoding="utf-8")
+
+    # 전부 성공했을 때만 입력란 초기화 — 실패분이 있으면 다음 실행 재시도를 위해 남겨둔다
+    if sentences and new_count and not failed and fatal_error is None:
+        clear_input()
 
     if fatal_error:
         log(f"\n중단: 복구 불가능한 API 오류 — {fatal_error}")

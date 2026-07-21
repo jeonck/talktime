@@ -12,4 +12,5 @@
     old content in place. An empty code block publishes nothing.
 -->
 ```
+Teacher: Today let's talk about weekend plans. Student: I will go to hiking with my friend. Teacher: Nice — we'd say 'go hiking'. Student: Ah, go hiking. I look forward to it. It is my cup of tea!
 ```
