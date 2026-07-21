@@ -11,11 +11,11 @@
 ```
 input/script.md (수업 스크립트 전체를 코드블록에 붙여넣기, GitHub 웹 UI에서 수정)
         │
-        ▼  저장(커밋)하는 순간 push 후킹으로 즉시 실행 + 매일 07:00 KST 크론
+        ▼  저장(커밋)하는 순간 push 후킹으로 즉시 실행 (크론 없음 — 후킹 전용)
 pipeline/generate.py
   - 코드블록 전체를 스크립트 1개로 읽음 (`---` 구분선으로 여러 개 가능)
   - 이미 게시된 스크립트(해시 기준)는 건너뜀 — pipeline/state.json 으로 추적
-  - 입력이 비어 있으면 클래식 이디엄 풀에서 그날의 항목으로 미니 레슨 생성
+  - 입력이 비어 있으면 아무것도 게시하지 않음
   - Claude가 스크립트를 분석해 섹션 구성:
       Session Overview / 💬 Idioms (설명+예문 2) / 📚 Vocabulary /
       🔧 Say It Better (틀린 말 vs 교정) / ✅ Check Yourself (토글 퀴즈) /
@@ -41,11 +41,12 @@ Hugo build → GitHub Pages 배포
 (텍스트 해시 기준 dedup). Actions 탭 → "TalkTime Daily" → "Run workflow"로 수동
 실행도 가능하다.
 
-### 입력이 없는 날 — 이디엄 미니 레슨
+### 입력이 없으면 — 아무 일도 없음 (후킹 전용)
 
-코드블록을 비워두면 매일 07:00 KST 크론이 `pipeline/generate.py`의
-`FALLBACK_QUOTES`(클래식 영어 이디엄 풀)에서 그날의 이디엄을 골라 미니 레슨
-포스트를 생성한다. 풀을 비우면(`FALLBACK_QUOTES = []`) 이 기능이 꺼진다.
+이 사이트는 스크립트를 입력할 때만 동작한다. 크론이 없으므로 입력이 없는 날은
+포스트도 생성되지 않는다. 매일 이디엄 미니 레슨을 자동 게시하고 싶어지면
+`.github/workflows/daily.yml`에 `schedule` 트리거를 되살리고 `pipeline/generate.py`의
+`FALLBACK_QUOTES` 풀을 채우면 된다(과거 커밋 히스토리에 예시가 있다).
 
 ## 최초 설정 (1회만, 사람이 직접 해야 하는 단계)
 
@@ -77,7 +78,7 @@ gh secret set CLAUDE_CODE_OAUTH_TOKEN --repo jeonck/talktime
 | `pipeline/generate.py` | 스크립트 분석 → Hugo 포스트 작성. 도메인 설정은 파일 상단 "도메인 설정" 블록 |
 | `pipeline/state.json` | 게시에 사용된 스크립트 해시 목록 (중복 게시 방지) |
 | `content/posts/` | 생성된 학습 포스트 |
-| `.github/workflows/daily.yml` | push 후킹 + 매일 07:00 KST 생성/배포 워크플로 |
+| `.github/workflows/daily.yml` | push 후킹 생성/배포 워크플로 (크론 없음, 수동 실행 가능) |
 | `themes/PaperMod` | Hugo 테마 (git submodule) |
 | `assets/css/extended/cards.css` | 카드 그리드 레이아웃 + PaperMod 여백 버그 수정 |
 | `static/CNAME` | 커스텀 도메인 (talktime.metacog.co.kr) |

@@ -46,20 +46,10 @@ KST = timezone(timedelta(hours=9))
 # ============================== 도메인 설정 =================================
 # 이 블록만 새 프로젝트 주제에 맞게 교체한다. 아래 엔진 코드는 건드릴 필요 없다.
 
-# input/script.md 가 비어 있을 때 대신 쓰는 항목 풀 — 클래식 영어 이디엄.
-# 스크립트가 없는 날에도 이디엄 하나를 앵커로 미니 레슨 포스트가 생성된다.
-FALLBACK_QUOTES = [
-    {"text": "not my cup of tea", "author": ""},
-    {"text": "break the ice", "author": ""},
-    {"text": "hit the nail on the head", "author": ""},
-    {"text": "once in a blue moon", "author": ""},
-    {"text": "the ball is in your court", "author": ""},
-    {"text": "bite off more than you can chew", "author": ""},
-    {"text": "get cold feet", "author": ""},
-    {"text": "on the same page", "author": ""},
-    {"text": "under the weather", "author": ""},
-    {"text": "a blessing in disguise", "author": ""},
-]
+# 후킹 전용 모드: 입력이 비어 있으면 아무것도 게시하지 않는다.
+# 매일 이디엄 미니 레슨을 자동 게시하려면 크론 트리거를 되살리고 이 풀을 채운다
+# (예: {"text": "break the ice", "author": ""}).
+FALLBACK_QUOTES = []
 
 # Claude에게 부여할 역할/톤
 SYSTEM_PROMPT = """You are an experienced ESL conversation coach. You analyze raw \
