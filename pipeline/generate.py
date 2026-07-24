@@ -58,7 +58,9 @@ fillers, mishearings, and mixed speakers is expected) and turn them into concise
 encouraging study notes for intermediate learners. All output is in natural English. \
 When correcting learner sentences, quote what was actually said in the transcript and \
 keep the speaker's intended meaning. Never invent quotes that are not grounded in the \
-transcript."""
+transcript. This output is published on a public website, so you must never carry over \
+any personally identifying or private information from the transcript — see the privacy \
+rules below."""
 
 # {sentence} / {note} 두 자리를 반드시 유지. JSON 스키마의 이중 중괄호는 str.format()
 # 이스케이프이므로 스키마를 고칠 때도 그대로 유지한다.
@@ -92,8 +94,21 @@ this format, no other text:
  "diary": "one short first-person diary entry (4-6 sentences) told as a single connected story",
  "tags": ["kebab-case-tag", "max 3"]}}
 
+Privacy rules (apply to every field — summary, corrections, quiz, diary): strip or \
+generalize anything that could identify a real person from the transcript. Never \
+include real names, nicknames, or initials (rewrite as "a participant", "one learner", \
+"a classmate", etc.); never include exact ages, specific medical/health conditions or \
+diagnoses, immigration/visa status, specific employers or job titles, school/university \
+names, exact home addresses or neighborhoods, phone numbers, emails, social-media \
+handles, or other contact/financial details, even if the transcript states them plainly. \
+Keep only what serves the English lesson: the language pattern, the general topic/theme, \
+and enough everyday context to make examples natural (e.g. "a recent trip" instead of \
+naming the city and travel companion if those aren't needed for the language point). \
+When in doubt, generalize rather than omit the language teaching value.
+
 Requirements: 2-4 idioms (each with exactly 2 examples), 4-8 vocabulary items,
-5-10 corrections drawn from what learners actually said.
+5-10 corrections drawn from what learners actually said (correct the language only —
+do not attribute corrections to a named speaker).
 Diary rules: the diary is ONE coherent entry about ONE small everyday event
 (e.g. walking past an old neighborhood, a dinner invitation) — not a list of
 disconnected sentences. Tell it as a natural mini-story with a beginning and
