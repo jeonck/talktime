@@ -10,6 +10,12 @@
     this is the only thing that runs it; there is no daily schedule. A transcript that
     was already published is skipped automatically (text-hash dedup), so you can leave
     old content in place. An empty code block publishes nothing.
+  - Privacy: before pasting, replace real names with a placeholder like "Speaker A" /
+    "a classmate" (find-and-replace works well). The generated post itself always
+    anonymizes names, ages, health/immigration/employer details, etc., but this repo
+    is public — whatever you paste here is visible in the commit the moment you save,
+    even after the pipeline clears the code block afterward. Pre-redacting names keeps
+    that raw commit clean too.
 -->
 ```
 ```
